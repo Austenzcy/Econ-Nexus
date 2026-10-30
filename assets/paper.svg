@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640">
+ <filter id="paper" x="0" y="0" width="100%" height="100%">
+  <feTurbulence type="fractalNoise" baseFrequency=".035 .065" numOctaves="4" stitchTiles="stitch" seed="17"/>
+  <feColorMatrix type="saturate" values="0"/>
+  <feComponentTransfer><feFuncR type="linear" slope=".36" intercept=".66"/><feFuncG type="linear" slope=".34" intercept=".59"/><feFuncB type="linear" slope=".30" intercept=".47"/><feFuncA type="linear" slope=".30"/></feComponentTransfer>
+ </filter>
+ <filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".78" numOctaves="3" stitchTiles="stitch" seed="5"/><feColorMatrix type="saturate" values="0"/></filter>
+ <rect width="640" height="640" fill="#eee1c8"/>
+ <rect width="640" height="640" filter="url(#paper)" opacity=".8"/>
+ <rect width="640" height="640" filter="url(#grain)" opacity=".075" style="mix-blend-mode:multiply"/>
+</svg>
