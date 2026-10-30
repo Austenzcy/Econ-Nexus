@@ -11,3 +11,10 @@
 .record-title,.article h1,.article-section h2,.attachments a{min-width:0;overflow-wrap:anywhere}
 @media(hover:none){.entrance:hover{transform:none}.entrance:hover .arrow{transform:none}}
 @media(max-height:500px) and (min-width:701px){.home{padding-top:70px}.directory,.article{padding-top:110px}.back{top:24px}}
+
+/* Reading notes: native text, equations and tables remain available offline. */
+.formula{margin:24px 0;padding:20px 22px;border-left:2px solid #a88b60;background:rgba(255,251,238,.32);font-family:Georgia,'Songti SC',serif;font-size:17px;line-height:1.9;white-space:pre-wrap;overflow-wrap:anywhere}
+.reading-note{margin:26px 0;padding:8px 0 8px 22px;border-left:2px solid #aa8756;color:#6b5030}.article .reading-note p{margin:0}
+.reading-table{margin:28px 0 32px}.reading-table table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:15px;line-height:1.85}.reading-table caption{text-align:left;font-size:14px;color:var(--muted);margin-bottom:14px}.reading-table th,.reading-table td{text-align:left;vertical-align:top;padding:14px 12px;border-bottom:1px solid var(--line);overflow-wrap:anywhere}.reading-table th{font-weight:600;background:rgba(255,251,238,.25)}.reading-table th:first-child{width:31%}
+.article .reading-sources{font-size:13px;line-height:1.9;color:var(--muted);margin-top:20px}.reading-sources a{text-decoration:underline;text-underline-offset:4px;text-decoration-color:#b99c73;overflow-wrap:anywhere}
+@media(max-width:700px){.formula{font-size:15px;padding:16px 14px}.reading-table table{font-size:13px}.reading-table th,.reading-table td{padding:12px 7px}.reading-table th:first-child{width:33%}.reading-note{padding-left:16px}}

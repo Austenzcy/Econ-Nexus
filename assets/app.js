@@ -17,6 +17,15 @@
   if (s.startsWith('//')) return null;
   return s;
  }
+ function blocks(items) {
+  return (items || []).map(b => {
+   if (b.type === 'formula') return `<div class="formula" role="math" aria-label="${esc(b.text)}">${esc(b.text)}</div>`;
+   if (b.type === 'note') return `<aside class="reading-note"><p>${esc(b.text)}</p></aside>`;
+   if (b.type === 'table') return `<div class="reading-table"><table><caption>${esc(b.caption || '')}</caption><thead><tr>${b.headers.map(h => `<th scope="col">${esc(h)}</th>`).join('')}</tr></thead><tbody>${b.rows.map(row => `<tr>${row.map(cell => `<td>${esc(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+   if (b.type === 'links') return `<p class="reading-sources">${esc(b.label || '延伸阅读：')}${b.items.map(item => {const url=safeUrl(item.url);return url ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(item.title)}</a>` : esc(item.title);}).join(' · ')}</p>`;
+   return `<p>${esc(b.text)}</p>`;
+  }).join('');
+ }
  function page(route) {
   if (route === 'home') return {html:home,title:'论文整理'};
   if (route === 'original') {
@@ -28,7 +37,7 @@
    let id; try { id = decodeURIComponent(route.slice(8)); } catch { id = ''; }
    const item = library.find(p => String(p.id) === id);
    if (item) {
-    const sections = (item.sections || []).map((section,i) => `<section class="article-section"><span class="number">${String(i+1).padStart(2,'0')}</span><h2>${esc(section.title)}</h2>${paragraphs(section.paragraphs)}</section>`).join('');
+    const sections = (item.sections || []).map((section,i) => `<section class="article-section"><span class="number">${String(i+1).padStart(2,'0')}</span><h2>${esc(section.title)}</h2>${paragraphs(section.paragraphs)}${blocks(section.blocks)}</section>`).join('');
     const links = (item.attachments || []).map(a => {const url=safeUrl(a.url); return url ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(a.title)}</a>` : '';}).join('');
     return {title:item.title,html:back('回到目录','original')+`<article class="article">${heading(item.title)}<p class="meta">整理于 ${esc(String(item.date).replaceAll('-','.'))}${item.source ? ' · '+esc(item.source) : ''}</p><section class="overview"><h2>先读懂这篇</h2>${paragraphs(item.overview)}</section>${sections}${links ? `<footer class="attachments">${links}</footer>` : ''}</article>`};
    }
