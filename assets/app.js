@@ -19,6 +19,8 @@
  }
  function blocks(items) {
   return (items || []).map(b => {
+   // rich HTML is compiled from reviewed, local Markdown by build-notes.mjs.
+   if (b.type === 'rich') return `<div class="rich-content">${b.html}</div>`;
    if (b.type === 'formula') return `<div class="formula" role="math" aria-label="${esc(b.text)}">${esc(b.text)}</div>`;
    if (b.type === 'note') return `<aside class="reading-note"><p>${esc(b.text)}</p></aside>`;
    if (b.type === 'table') return `<div class="reading-table"><table><caption>${esc(b.caption || '')}</caption><thead><tr>${b.headers.map(h => `<th scope="col">${esc(h)}</th>`).join('')}</tr></thead><tbody>${b.rows.map(row => `<tr>${row.map(cell => `<td>${esc(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
@@ -29,7 +31,14 @@
  function page(route) {
   if (route === 'home') return {html:home,title:'论文整理'};
   if (route === 'original') {
-   const rows = [...library].sort((a,b) => String(b.date).localeCompare(String(a.date))).map(item => `<a class="record" href="#article/${encodeURIComponent(item.id)}"><time datetime="${esc(item.date)}">${esc(String(item.date).replaceAll('-','.'))}</time><span class="record-title">${esc(item.title)}</span></a>`).join('');
+   const sorted = [...library].sort((a,b) => String(b.date).localeCompare(String(a.date)) || Number(Boolean(b.group))-Number(Boolean(a.group)));
+   let lastGroup = '';
+   const rows = sorted.map(item => {
+    const group = item.group ? `${item.date}/${item.group}` : '';
+    const groupHeading = group && group !== lastGroup ? `<h2 class="archive-group">${esc(item.group)}</h2>` : !group && lastGroup ? '<h2 class="archive-group">其他阅读</h2>' : '';
+    lastGroup = group;
+    return groupHeading+`<a class="record" href="#article/${encodeURIComponent(item.id)}"><time datetime="${esc(item.date)}">${esc(String(item.date).replaceAll('-','.'))}</time><span class="record-title">${esc(item.title)}</span></a>`;
+   }).join('');
    return {title:'原始目录',html:back('回到主页','home')+`<section class="directory">${heading('原始目录')}<div class="table-head" aria-hidden="true"><span>整理日期</span><span>论文标题</span></div>${rows || '<div class="empty"><p class="empty-title">尚未收录资料</p><p class="empty-caption">下一次阅读，从这里开始。</p></div>'}</section>`};
   }
   if (route === 'organized') return {title:'整理目录',html:back('回到主页','home')+`<section class="directory">${heading('整理目录')}<div class="empty organized-empty"><p class="empty-title">让积累，慢慢成形</p><p class="empty-caption">这里将收纳按主题整理的阅读积累。</p></div></section>`};
@@ -39,7 +48,7 @@
    if (item) {
     const sections = (item.sections || []).map((section,i) => `<section class="article-section"><span class="number">${String(i+1).padStart(2,'0')}</span><h2>${esc(section.title)}</h2>${paragraphs(section.paragraphs)}${blocks(section.blocks)}</section>`).join('');
     const links = (item.attachments || []).map(a => {const url=safeUrl(a.url); return url ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(a.title)}</a>` : '';}).join('');
-    return {title:item.title,html:back('回到目录','original')+`<article class="article">${heading(item.title)}<p class="meta">整理于 ${esc(String(item.date).replaceAll('-','.'))}${item.source ? ' · '+esc(item.source) : ''}</p><section class="overview"><h2>先读懂这篇</h2>${paragraphs(item.overview)}</section>${sections}${links ? `<footer class="attachments">${links}</footer>` : ''}</article>`};
+    return {title:item.title,html:back('回到目录','original')+`<article class="article">${heading(item.title)}<p class="meta">${item.group ? '归档于' : '整理于'} ${esc(String(item.date).replaceAll('-','.'))}${item.source ? ' · '+esc(item.source) : ''}</p>${item.subtitle ? `<p class="article-subtitle">${esc(item.subtitle)}</p>` : ''}<section class="overview"><h2>先读懂这篇</h2>${item.overviewHtml || paragraphs(item.overview)}</section>${sections}${links ? `<footer class="attachments">${links}</footer>` : ''}</article>`};
    }
    return {title:'资料未找到',html:back('回到目录','original')+`<section class="directory">${heading('资料未找到')}<div class="empty"><p class="empty-caption">这份资料可能已移动，请回到目录查看。</p></div></section>`};
   }

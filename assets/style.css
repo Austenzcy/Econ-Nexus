@@ -18,3 +18,29 @@
 .reading-table{margin:28px 0 32px}.reading-table table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:15px;line-height:1.85}.reading-table caption{text-align:left;font-size:14px;color:var(--muted);margin-bottom:14px}.reading-table th,.reading-table td{text-align:left;vertical-align:top;padding:14px 12px;border-bottom:1px solid var(--line);overflow-wrap:anywhere}.reading-table th{font-weight:600;background:rgba(255,251,238,.25)}.reading-table th:first-child{width:31%}
 .article .reading-sources{font-size:13px;line-height:1.9;color:var(--muted);margin-top:20px}.reading-sources a{text-decoration:underline;text-underline-offset:4px;text-decoration-color:#b99c73;overflow-wrap:anywhere}
 @media(max-width:700px){.formula{font-size:15px;padding:16px 14px}.reading-table table{font-size:13px}.reading-table th,.reading-table td{padding:12px 7px}.reading-table th:first-child{width:33%}.reading-note{padding-left:16px}}
+
+/* NEA notes share the existing paper, type scale, and page transitions. */
+.archive-group{font-size:14px;font-weight:600;line-height:1.8;color:#725431;letter-spacing:.055em;padding:27px 18px 12px;border-bottom:1px solid var(--line)}
+.article .article-subtitle{font-size:16px;color:#725431;line-height:1.85;margin-top:18px}
+.rich-content{min-width:0}
+.rich-content h3{font-size:18px;line-height:1.65;margin:32px 0 18px;font-weight:600;overflow-wrap:anywhere}
+.rich-content ul,.rich-content ol{padding-left:1.5em;margin:20px 0 26px;font-size:16px;line-height:1.95}
+.rich-content li{padding-left:.2em;margin:12px 0;overflow-wrap:anywhere}
+.rich-content li p{margin:8px 0}
+.rich-content a,.overview a{ text-decoration:underline;text-decoration-color:#b99c73;text-underline-offset:4px;overflow-wrap:anywhere}
+.rich-content code{font-family:ui-monospace,monospace;font-size:.87em;overflow-wrap:anywhere}
+.rich-content blockquote,.overview blockquote{margin:26px 0 0;padding:4px 0 4px 20px;border-left:2px solid #aa8756;color:#6b5030}
+.rich-content blockquote p,.overview blockquote p{margin:0}
+.rich-table{overflow-x:auto;max-width:100%;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}
+.rich-table table{min-width:580px;table-layout:auto}
+.rich-table th:first-child{width:auto;min-width:105px}
+.rich-table th,.rich-table td{min-width:100px}
+.rich-table.two-column table{min-width:0;table-layout:fixed}
+.rich-table.two-column th:first-child{width:25%;min-width:0}
+.rich-table.two-column th,.rich-table.two-column td{min-width:0}
+.math-scroll{max-width:100%;overflow-x:auto;padding:10px 14px;margin:24px 0;border-left:2px solid #a88b60;background:rgba(255,251,238,.32);overscroll-behavior-x:contain}
+.math-scroll .katex-display{margin:.5em 0;text-align:left}
+.math-scroll .katex-display>.katex{text-align:left}
+.article .katex{font-size:1.05em}
+.rich-table:focus-visible,.math-scroll:focus-visible{outline:2px solid #8f6739;outline-offset:4px}
+@media(max-width:700px){.archive-group{font-size:13px;padding:25px 4px 12px}.rich-content h3{font-size:18px}.rich-content ul,.rich-content ol{font-size:16px;line-height:1.9}.rich-table table{min-width:560px}.math-scroll{padding:10px}.article .article-subtitle{font-size:15px}}

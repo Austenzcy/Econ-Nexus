@@ -1,0 +1,7 @@
+{
+  "name": "econ-nexus",
+  "private": true,
+  "type": "module",
+  "scripts": { "build:notes": "node scripts/build-notes.mjs" },
+  "devDependencies": { "katex": "0.16.22", "marked": "17.0.5" }
+}
