@@ -32,12 +32,8 @@
   if (route === 'home') return {html:home,title:'论文整理'};
   if (route === 'original') {
    const sorted = [...library].sort((a,b) => String(b.date).localeCompare(String(a.date)) || Number(Boolean(b.group))-Number(Boolean(a.group)));
-   let lastGroup = '';
    const rows = sorted.map(item => {
-    const group = item.group ? `${item.date}/${item.group}` : '';
-    const groupHeading = group && group !== lastGroup ? `<h2 class="archive-group">${esc(item.group)}</h2>` : !group && lastGroup ? '<h2 class="archive-group">其他阅读</h2>' : '';
-    lastGroup = group;
-    return groupHeading+`<a class="record" href="#article/${encodeURIComponent(item.id)}"><time datetime="${esc(item.date)}">${esc(String(item.date).replaceAll('-','.'))}</time><span class="record-title">${esc(item.title)}</span></a>`;
+    return `<a class="record" href="#article/${encodeURIComponent(item.id)}"><time datetime="${esc(item.date)}">${esc(String(item.date).replaceAll('-','.'))}</time><span class="record-title">${esc(item.title)}</span></a>`;
    }).join('');
    return {title:'原始目录',html:back('回到主页','home')+`<section class="directory">${heading('原始目录')}<div class="table-head" aria-hidden="true"><span>整理日期</span><span>论文标题</span></div>${rows || '<div class="empty"><p class="empty-title">尚未收录资料</p><p class="empty-caption">下一次阅读，从这里开始。</p></div>'}</section>`};
   }
