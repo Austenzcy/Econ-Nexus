@@ -47,6 +47,11 @@ const cases = [
   ['03_生产导向型货币政策_优秀研究方法.md', 'nea-monetary-mandarin-capitalism', 'Monetary Policy in Mandarin Capitalism', '柴森叶', '研究方法案例']
 ];
 const records = [];
+const directoryTitles = {
+  'nea-pe-exam-long-run': '跑向成功：体育中考的长期回报',
+  'nea-attention-consumption': '有限注意力下的投资收益消费',
+  'nea-monetary-mandarin-capitalism': '生产导向型经济中的货币政策'
+};
 for (const [file, id, title, presenter, kind] of cases) {
   const source = await fs.readFile(path.join(root, 'notes/nea-2026-10-31', file), 'utf8');
   const subtitle = source.match(/^# (.+)$/m)?.[1];
@@ -57,7 +62,7 @@ for (const [file, id, title, presenter, kind] of cases) {
   });
   const overview = parts.shift();
   if (overview?.title !== '这份资料说了什么') throw new Error(`Missing overview in ${file}`);
-  records.push({id, date:'2026-10-31', group:'2026年10月31日 · NEA组会', title, subtitle,
+  records.push({id, date:'2026-10-31', group:'2026年10月31日 · NEA组会', title, directoryTitle:directoryTitles[id], subtitle,
     source:`NEA组会 · ${presenter}分享 · ${kind}`, overviewHtml:html(`${overview.body}\n\n> ${lead}`),
     sections:parts.map(section => ({title:section.title.replace(/^[一二三四五六七八九十]+、/, ''), blocks:[{type:'rich', html:html(section.body)}]})),
     attachments:[{title:'阅读 Markdown 笔记', url:`notes/nea-2026-10-31/${file}`}]
