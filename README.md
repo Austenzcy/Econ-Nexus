@@ -20,7 +20,7 @@
 资料记录位于 `assets/library.js`；样式位于 `assets/style.css`。
 浏览器不会自动写入本地资料文件；新增资料需要更新项目文件。
 
-NEA 三篇笔记的可编辑正文在 `notes/nea-2026-10-31/`，网页数据为 `assets/nea-notes.js`。
+案例笔记的可编辑正文位于 `notes/nea-2026-10-31/` 和 `notes/cases-2026-11-02/`，网页数据为 `assets/nea-notes.js`。
 修改 Markdown 后，使用 Node.js 20+ 执行 `npm install`、`npm run build:notes`。
 生成文件和 KaTeX 样式、字体随站点保存；普通阅读无需安装依赖、启动服务或连接公式 CDN。
 网页来源链接指向公开论文页面，不上传个人本地 PDF 或组会讲义。
@@ -36,5 +36,7 @@ NEA 三篇笔记的可编辑正文在 `notes/nea-2026-10-31/`，网页数据为 
 - 2026-10-31 NEA 组会：Running to Success: Long-term Returns to the High-stakes PE Exam（桂宇河分享，研究问题案例）。
 - 2026-10-31 NEA 组会：Consumption out of Investment Proceeds under Limited Attention（张凯瑞分享，研究问题案例；另核对 2026-10-19 更名稿）。
 - 2026-10-31 NEA 组会：Monetary Policy in Mandarin Capitalism（柴森叶分享，研究方法案例）。
+
+- 2026-11-02：南水北调与健康、旅游扩张与教育、同伴富裕与心理健康、晋升锦标赛与污染。
 
 第一篇依据用户提供的文章文字整理。原始公式和表格图片未提供，经验数字仅转述可见文字；工具变量部分另附通俗解释与方法资料链接。没有重新估计模型，笔记将内部工具变量结果保留为补充证据。

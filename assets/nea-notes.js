@@ -1,4 +1,4 @@
-/* Generated from notes/nea-2026-10-31 by scripts/build-notes.mjs. */
+/* Generated from notes/ by scripts/build-notes.mjs. */
 window.PAPER_LIBRARY = (window.PAPER_LIBRARY || []).concat([
   {
     "id": "nea-pe-exam-long-run",
@@ -312,6 +312,344 @@ window.PAPER_LIBRARY = (window.PAPER_LIBRARY || []).concat([
       {
         "title": "阅读 Markdown 笔记",
         "url": "notes/nea-2026-10-31/03_生产导向型货币政策_优秀研究方法.md"
+      }
+    ]
+  },
+  {
+    "id": "water-diversion-health",
+    "date": "2026-11-02",
+    "title": "流动的福祉：南水北调与健康中国",
+    "directoryTitle": "流动的福祉：南水北调与健康中国",
+    "subtitle": "南水北调与健康｜从一杯自来水里发现公共工程的回报",
+    "source": "梁超、柳杭娟、张荣杰",
+    "overviewHtml": "<p>水利工程的账上通常有调水量、供水可靠性、旱灾损失和工农业产出。一杯自来水换了水源，家里老人少患一次病，这笔收益在哪里入账？梁超等从这里切入，把一项跨流域工程变成了一个能用个人数据回答的问题。</p>\n<p>作者利用东线、中线通水时间和受水地区的差异，将 CHARLS 健康记录与工程暴露联系起来。受水区中老年居民的水源性疾病患病概率下降约 3.18 个百分点。读这篇可以学到，怎样从一项工程的服务变化出发，找到通常没有计入项目账目的受益人。</p>\n",
+    "sections": [
+      {
+        "title": "论文与证据来源",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<p>梁超、柳杭娟、张荣杰，《流动的福祉：南水北调与健康中国》，《世界经济》2026 年第 4 期，第 49 卷，第 199—222 页。研究领域为公共经济学、环境与健康经济学。下文数字定位于期刊英文长摘要的实证结果段。可以核实所用调查、效果量及机制方向，未取得逐页正文表格。<a href=\"https://sjjj.magtech.com.cn/CN/Y2026/V49/I4/199\" target=\"_blank\" rel=\"noopener noreferrer\">期刊记录</a> · <a href=\"https://sjjj.magtech.com.cn/EN/Y2026/V49/I4/199\" target=\"_blank\" rel=\"noopener noreferrer\">英文长摘要</a> · <a href=\"https://sjjj.magtech.com.cn/fileup/1002-9621/SUPPL/supplFile_art_20260407151311.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">作者的数据说明</a></p>\n"
+          }
+        ]
+      },
+      {
+        "title": "研究问题｜找到项目账外的受益人",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<p>受水区企业有了更可靠的供水，增产容易在统计中留下记录。居民喝到更好的水，疾病风险下降，却很难从水费或地方 GDP 中读出来。尤其当水费由公共定价决定时，账单大致不变也可以伴随显著的质量变化。问题由此缩小为：在工程改变供水来源后，受水城市中老年人的患病概率有没有随之变化？</p>\n"
+          }
+        ]
+      },
+      {
+        "title": "经济学直觉｜把水量与水质分开",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<p>即使总用水量不变，净水厂取水来源的变化也可能改变居民长期接触的污染物。如果起作用的是饮水质量，水源性疾病应当比与饮水关系较弱的疾病更敏感，优质水源覆盖的线路也可能有更大改善。如果是当地收入增长、医疗扩张或普遍性的公共卫生改善，同样可以看到健康好转，但疾病类别和线路之间的差异未必符合上述预测。这样的竞争解释决定了应收集哪些结果，远比事后笼统解释“基础设施有益健康”具体。</p>\n"
+          }
+        ]
+      },
+      {
+        "title": "研究设计｜通水时间怎样变成个体暴露",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<p>东线一期于 2013 年 11 月通水，中线一期于 2014 年 12 月通水。作者用受水地区与通水时间的差异，结合 CHARLS 的中老年个体健康记录进行双重差分。比较的含义是，受水城市在接水前后的患病变化，相对于同期尚未受水或未受水地区有多大。两条线的开通日期是制度起点，具体城市接入、处理组名单与调查波次应以正文定义为准。<a href=\"https://app.www.gov.cn/govdata/gov/201712/13/416531/article.html\" target=\"_blank\" rel=\"noopener noreferrer\">工程时间记录</a></p>\n<p>多时点设计的反事实是：若没有调水，各处理批次的健康趋势应与可比对照组相近。线路恰好通向缺水、污染较重或优先获治理的地区，意味着通水本身不能保证可比性。调查时某地属于受水城市，也不等于每户都已经换水。由此估计的首先是地区接水带来的平均影响，不能直接解释为某个家庭多喝一升调水的健康回报。</p>\n"
+          }
+        ]
+      },
+      {
+        "title": "主要结果｜从患病率走到医疗支出",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<div class=\"reading-table rich-table two-column\" tabindex=\"0\" role=\"region\" aria-label=\"资料表格，可横向滚动\"><table>\n<thead>\n<tr>\n<th>作者报告的结果</th>\n<th>经济学含义</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>慢性病患病率下降约 2.04 个百分点，水源性疾病患病概率下降约 3.18 个百分点</td>\n<td>这是不同结局的概率变化，不能把两个数字相加，也不能解释为患病人数下降了相应百分比。</td>\n</tr>\n<tr>\n<td>非水源性疾病未见显著变化，中线健康改善更突出</td>\n<td>病种与水源质量的对应关系，使饮水水质解释更可信。</td>\n</tr>\n<tr>\n<td>估算每年节约居民医疗支出约 816 亿元</td>\n<td>这是作者将健康改善折算到医疗支出后的年度估值，不等于工程净现值。</td>\n</tr>\n</tbody></table></div>\n<p>来源为期刊英文长摘要的结果、机制与成本收益段。<a href=\"https://sjjj.magtech.com.cn/EN/Y2026/V49/I4/199\" target=\"_blank\" rel=\"noopener noreferrer\">英文版</a></p>\n"
+          }
+        ]
+      },
+      {
+        "title": "识别与福利核算的边界",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<p>非水源性疾病是很有用的对照结果，但两类疾病的诊断概率、潜伏期和统计精度可能不同。一个系数显著、另一个不显著，也不自动意味着系数差异显著。若同时改善了污水治理，且主要影响水源性疾病，病种比较仍难区分水源替换和本地治理。中线与东线还可能在人口结构、基础设施和接水比例上不同。几条证据合在一起支持一种机制，力度强于只看一个总健康指标。</p>\n<p>把健康变成金额时，可用一个核算问题检查外推：每人平均节约多少，适用哪些人，能持续几年？816 亿元是年度医疗支出节约估计。患者减少的痛苦、家属省下的照护时间也有价值，医疗支付里还涉及医保与个人之间的分担。若要和工程成本比较，需要统一价格年份，纳入建设、运维、供水区机会成本和生态影响，再按受益年限折现。把一次性建设成本直接减去一年医疗支出节约，或把医疗节约再完整加到已含医疗成本的健康估值中，都会算错账。</p>\n"
+          }
+        ]
+      },
+      {
+        "title": "最值得学习的能力｜沿服务变化寻找福利结果",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<p>做选题时可以画两张不同的账：项目方记录交付了多少，使用者经历了什么变化。两张账之间的缺口构成候选问题。这里的关键一步，是把“生态福利”压缩到一个明确路径：换水源 → 居民饮水暴露变化 → 特定疾病风险变化 → 家庭医疗负担变化。沿这条路径，能同时指出谁应受益、什么结果应该敏感，以及什么证据会削弱解释。若只能找到下游结果，却说不清谁真正接触了项目，就应先解决暴露测量。</p>\n"
+          }
+        ]
+      },
+      {
+        "title": "未来如何复用",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<ol>\n<li><strong>老旧小区供水改造。</strong> 区分管网更换、水压改善与水质改善。按实际接管日期匹配住户，先核对水质监测，再比较疾病结局。若同期开通社区门诊，应检查诊断率变化。此为新设想。</li>\n<li><strong>城市无障碍改造。</strong> 除客流和通行时间外，研究行动不便者能否独立就医、家属是否少请假。优先比较连续可达路线前后发生变化的人，避免把所有附近居民都算作使用者。此为新设想。</li>\n<li><strong>可复用原则。</strong> 在货币化前先保留自然单位，如每千名居民少几例疾病。由样本推算全体时明示人群、覆盖率和期限，这样即使单价有争议，读者仍能判断项目带来了什么。</li>\n</ol>\n<p><a href=\"#original\">返回原始目录</a></p>\n"
+          }
+        ]
+      }
+    ],
+    "attachments": [
+      {
+        "title": "阅读 Markdown 笔记",
+        "url": "notes/cases-2026-11-02/04_南水北调与健康_隐性福利效应.md"
+      }
+    ]
+  },
+  {
+    "id": "tourism-growth-education",
+    "date": "2026-11-02",
+    "title": "Tourism growth, education decline: Evidence from China’s 5A attraction expansion",
+    "directoryTitle": "旅游业增长与教育水平下降：来自中国5A级景区扩张的证据",
+    "subtitle": "旅游扩张与教育｜家门口的工作机会怎样改变升学选择",
+    "source": "Zeyi He、Zhi-An Hu、Wei Huang、Yankun Kang",
+    "overviewHtml": "<p>景区获评 5A 后，游客更多，旅馆、餐饮和零售企业有了生意。对一个刚读完初中的学生来说，这还意味着今天就能找到工作。继续读高中的学费即使一分没涨，读书时放弃的工资也变多了。这是文章最值得借鉴的提问方式：找出同一次经济变化给当事人新增了哪个可选项。</p>\n<p>作者比较当地首次获评 5A 时处于不同升学阶段的队列，发现未满 17 岁时暴露于旅游扩张的青少年，高中入学概率下降约 3.5 个百分点。这个案例示范了如何辨别两种方向相反的力量：家庭收入增加可能支持升学，眼前的工作机会也可能让继续读书变得更贵。</p>\n",
+    "sections": [
+      {
+        "title": "论文与证据来源",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<p>Zeyi He、Zhi-An Hu、Wei Huang、Yankun Kang，<em>Tourism growth, education decline: Evidence from China’s 5A attraction expansion</em>，<em>Journal of Urban Economics</em>，2025 年 11 月，第 150 卷，文章号 103811。领域为城市、劳动与教育经济学。下文样本与数字依据出版社原文 Introduction 中依次讨论地区、个人和机制的段落。作者另公开了复现包，本笔记没有重新估计。<a href=\"https://doi.org/10.1016/j.jue.2025.103811\" target=\"_blank\" rel=\"noopener noreferrer\">论文</a> · <a href=\"https://doi.org/10.7910/DVN/2GJTZV\" target=\"_blank\" rel=\"noopener noreferrer\">作者复现资料</a></p>\n"
+          }
+        ]
+      },
+      {
+        "title": "研究问题｜把增长机会放回家庭的选择集",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<p>旅游业的地区收入和就业收益容易观察，但新增岗位特别集中在哪些技能层次，决定了下一代受教育的私人回报。作者抓住初中结束这一决策点。此前有义务教育约束，此后家庭第一次需要在继续升学和进入劳动市场之间做出实质选择。同样的岗位机会，出现在初三和出现在高中毕业后，理论上就不应有同样的升学影响。</p>\n"
+          }
+        ]
+      },
+      {
+        "title": "经济学直觉｜两种作用可能方向相反",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<div class=\"reading-table rich-table\" tabindex=\"0\" role=\"region\" aria-label=\"资料表格，可横向滚动\"><table>\n<thead>\n<tr>\n<th>家庭发生的变化</th>\n<th>对升学的预测</th>\n<th>可用于区分的证据</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>父母收入提高，原来付不起的教育变得负担得起</td>\n<td>升学可能增加</td>\n<td>收入改善的家庭是否增加教育支出？</td>\n</tr>\n<tr>\n<td>青少年能立刻得到较好的低技能岗位，读书意味着放弃工资</td>\n<td>升学可能减少</td>\n<td>旅游岗位相对工资越高、额外教育预期回报越低，降幅是否越大？</td>\n</tr>\n<tr>\n<td>家长重新判断学历的必要性</td>\n<td>投入的变化可能早于毕业</td>\n<td>仍在义务教育阶段，家长的期望、投入和孩子的成绩是否已变化？</td>\n</tr>\n</tbody></table></div>\n<p>因此，低收入家庭面临的净效应在理论上并不确定。短期急需现金的家庭可能更在意眼前工资，但收入增长也可能缓解其预算约束。把这两种预测放在一起，才知道估计量要回答什么。</p>\n"
+          }
+        ]
+      },
+      {
+        "title": "研究设计｜先确认旅游市场变了，再看谁来得及改变升学",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<p>作者先用地区 DID 和事件研究检验一个基础事实：地级市首个 5A 景区获评以后，人均旅游收入和游客指标是否上升，服务企业是否进入。接着使用 2015 年全国人口抽样调查，将个体出生队列与县级景区获评时点匹配。核心比较是首次暴露时未满 17 岁、仍可能改变升学选择的队列，与获评时已经过了通常升学年龄的队列。县固定效应吸收稳定的本地差异，地级市 × 出生年份固定效应吸收同市同代人面临的共同环境。这里应区分两个层次：旅游活跃度的地区比较，与教育结果的县域队列比较。<a href=\"https://www.sciencedirect.com/science/article/pii/S0094119025000762\" target=\"_blank\" rel=\"noopener noreferrer\">原文 Introduction</a></p>\n"
+          }
+        ]
+      },
+      {
+        "title": "结果｜三步证据各回答一件事",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<ul>\n<li><strong>岗位机会确实变化。</strong> 首个 5A 出现后，地级市人均旅游收入增加约 2,000 元，相当于样本均值的 58.9%。住宿、餐饮和零售等行业的企业进入增加。这使“有工作可去”有了可观察的依据。</li>\n<li><strong>受到影响的是升学窗口。</strong> 未满 17 岁时暴露的青少年，高中入学概率下降约 <strong>3.5 个百分点</strong>，相当于样本均值的约 7%。较晚暴露队列的估计接近零。父母学历较低、从事农业或未就业的家庭，以及发展基础较弱地区，降幅更集中。7% 是相对样本均值的变化，不能据此认定哪些具体学生因旅游而退学。</li>\n<li><strong>证据与机会成本解释一致。</strong> 旅游岗位相对工资更高、估计的教育回报更低的地区降幅更大。CFPS 补充分析还观察到家长教育期望与投入下降，孩子语文、数学表现较弱。学校和教师数量没有显著减少，使单纯的教育供给收缩较难解释全部结果。<a href=\"https://doi.org/10.1016/j.jue.2025.103811\" target=\"_blank\" rel=\"noopener noreferrer\">原文 Introduction 的机制分析</a></li>\n</ul>\n"
+          }
+        ]
+      },
+      {
+        "title": "可信度与长期解释",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<p>评级不是抽签。原本发展更快或正在改善交通的县，更可能入选，也可能本来就有不同的升学趋势。作者用 2006 年已有 4A 景区的县、或截至 2022 年最终取得 5A 的县收窄比较，并考察人口迁移、地区溢出和分批处理效应。核心假设仍是可比县的队列差异若无评级不会在相同年龄窗口系统分化。17 岁是有经济含义的暴露窗口，不应读成随机分配的年龄断点。</p>\n<p>少上高中改变了可进入职业和继续深造的机会，但论文报告的 3.5 个百分点不是终身工资损失，也不是旅游发展净福利为负的证据。要走到福利判断，还需要知道早就业者实际赚到多少、是否在工作中积累技能、后来能否返校。家长降低教育预期支持一条机制，不能单独证明家庭判断有误。</p>\n"
+          }
+        ]
+      },
+      {
+        "title": "最值得学习的能力｜同时观察受益者和处于选择边缘的人",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<p>有趣的转向不是把“旅游有好处”改写成“旅游有坏处”，而是发现两类统计量回答不同问题。收入和游客流量衡量当地市场有没有扩张，高中入学衡量新增选项怎样改变年轻人的决策。换一个产业可以复用这个思路，但不能直接套用结果。若扩张的岗位要求学历或提供高技能晋升通道，教育回报可能上升。因此选题前应先查新增职位的学历门槛、工资和招工年龄，再确定哪一个教育决策窗口最可能受影响。</p>\n"
+          }
+        ]
+      },
+      {
+        "title": "未来如何复用",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<ol>\n<li><strong>即时配送扩张。</strong> 先用招聘与薪资数据确认低学历青年确实有新增机会，再看平台进入时尚未决定继续升学和已经完成选择的队列。当地劳动力需求可能同时推动平台进入，须另找可信的进入时点比较。此为新设想。</li>\n<li><strong>企业采用 AI 后的培训取舍。</strong> 同一技术可能降低初级岗位入门门槛，也可能提高复杂岗位的技能溢价。按技术进入前的岗位任务和资格要求分别观察就业、工资及继续培训，允许不同工种出现相反结果。此为新设想。</li>\n<li><strong>可复用原则。</strong> 先证明新机会真实存在，再找尚能调整选择的人。把短期收入、教育行为和多年后的劳动结果分开记录，避免用最容易取得的一个指标代替整个权衡。</li>\n</ol>\n<p><a href=\"#original\">返回原始目录</a></p>\n"
+          }
+        ]
+      }
+    ],
+    "attachments": [
+      {
+        "title": "阅读 Markdown 笔记",
+        "url": "notes/cases-2026-11-02/05_旅游扩张与教育_激励权衡.md"
+      }
+    ]
+  },
+  {
+    "id": "peer-affluence-mental-health",
+    "date": "2026-11-02",
+    "title": "Relative affluence and mental health: Evidence from quasi-random class assignments",
+    "directoryTitle": "相对富裕与心理健康：来自准随机分班的证据",
+    "subtitle": "同伴富裕与心理健康｜分班规则能解决选择问题，测度问题还要单独回答",
+    "source": "Huajun Wu、Ning Neil Yu",
+    "overviewHtml": "<p>两个学生来自同一个县，考进同一所大学、同一个专业。其中一人分到了更多来自富裕地区的同学。他的生活预算未必因此改变，但每天接触的消费方式、谈论的话题和比较对象变了。这个例子把两个常混在一起的问题分开：一个人自己拥有什么，以及他拿自己和谁比较。</p>\n<p>作者利用同一学校、专业与入学队列内的准随机分班，考察同伴生源县富裕程度与新生抑郁筛查结果的联系。主要识别样本为 237,459 人。读这篇时值得分开问：分班怎样产生可比的同伴环境，县人均 GDP 又在多大程度上代表家庭资源？</p>\n",
+    "sections": [
+      {
+        "title": "论文与阅读口径",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<p>Huajun Wu、Ning Neil Yu，<em>Relative affluence and mental health: Evidence from quasi-random class assignments</em>，<em>Journal of Development Economics</em>，2026 年在线，编入 2027 年 2 月第 185 卷，文章号 103954。领域为发展、健康与教育经济学。以下使用出版社公开引言和具名章节摘段。平衡性检验的逐项数值和家庭收入插补细节未核到表级。<a href=\"https://www.sciencedirect.com/science/article/pii/S0304387826002373\" target=\"_blank\" rel=\"noopener noreferrer\">期刊原文</a> · <a href=\"https://sites.google.com/site/neilningyu/publications\" target=\"_blank\" rel=\"noopener noreferrer\">作者发表记录</a></p>\n"
+          }
+        ]
+      },
+      {
+        "title": "研究问题｜绝对资源相同，参照环境也可能影响福利",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<p>家庭资源会影响个人的生活条件和应对冲击的能力。相对地位的机制则允许在本人资源给定时，周围人的生活水平改变其自我评价、支持感和心理健康。同伴也可能提供信息、帮助和机会，影响的方向并非由“富裕”二字决定。这个问题有经济学意义，因为同一种同伴配置可能带来学习机会，同时产生心理成本。评价教育机会时，成绩和心理福利是两个不同的结果。</p>\n"
+          }
+        ]
+      },
+      {
+        "title": "识别｜把比较限定在真正发生分班的地方",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<p>直接比较“富裕同学多”和“富裕同学少”的大学，会混入择校、专业偏好、家庭背景、录取成绩和地区心理服务差异。作者利用的是学生<strong>先被某校某专业录取，入校前再分行政班</strong>。同班意味着较稳定的日常接触。真正提供比较的是同一入学队列、同一学校、同一专业内部有多个班，且分班可视为准随机的情形。学校、专业和入学年份的联合固定效应将这些比较限定在相应单元内。</p>\n<p>2020—2022 年某省统一的新生心理筛查覆盖约 140 万人。主要识别样本为 <strong>237,459 名</strong>多班且分配规则可信的专业中的学生。前一个数字描述资料规模，后一个数字描述用于识别的人群。即使最后仍用 OLS 估计，比简单跨校 OLS 更可信的原因也是同伴构成的变动来源，而不是回归技术更复杂。<a href=\"https://doi.org/10.1016/j.jdeveco.2026.103954\" target=\"_blank\" rel=\"noopener noreferrer\">原文 Introduction、Mental health survey、Quasi-random class assignment within majors</a></p>\n<p>读这种设计时，应把三个问题分别记录：</p>\n<div class=\"reading-table rich-table\" tabindex=\"0\" role=\"region\" aria-label=\"资料表格，可横向滚动\"><table>\n<thead>\n<tr>\n<th>需要建立的事实</th>\n<th>如何判断</th>\n<th>剩余风险</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>学生无法按预期的同伴构成自选班</td>\n<td>查分班发生在何时，哪些专业分重点班、按成绩或生源编班</td>\n<td>若规则选择了不同能力或家庭背景的学生，联合固定效应也无法消除班内排序。</td>\n</tr>\n<tr>\n<td>分配前的特征在可比班级间平衡</td>\n<td>在同一分配单元内，对比个人生源地、性别、入学前表现等与同伴富裕程度的关系</td>\n<td>这是应检查的诊断逻辑，不是对未见平衡表或 p 值的转述。原文另报告附录 D 有安慰剂等检验。</td>\n</tr>\n<tr>\n<td>同伴暴露发生在结果测量前</td>\n<td>核对入校前编班与第一学期筛查的顺序，考虑转班、缺测、班级管理或宿舍安排</td>\n<td>若某类班还系统配备不同师资或住宿条件，可能估计到整套环境的变化。</td>\n</tr>\n</tbody></table></div>\n"
+          }
+        ]
+      },
+      {
+        "title": "变量测度｜随机分到一种环境，与测准这种环境，是两件事",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<p>作者以同班同学生源县的人均 GDP 衡量同伴家乡富裕程度，并控制本人家乡富裕程度。它有两个解释层次：地区发展条件是真实的环境属性，也能为家庭经济背景提供信息。但同县贫富差距可能很大，城市教育资源、语言文化和生活成本也随地区变化。因此，“接触来自富裕地区的同学”和“接触家庭真实资产更高的同学”不是可以直接互换的处理。</p>\n<p>同伴平均值的构造应将本人排除。教学上可写为 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>P</mi><mi>i</mi></msub><mo>=</mo><msub><mo>∑</mo><mrow><mi>j</mi><mo>∈</mo><mi>c</mi><mo separator=\"true\">,</mo><mi>j</mi><mo mathvariant=\"normal\">≠</mo><mi>i</mi></mrow></msub><msub><mi>A</mi><mi>j</mi></msub><mi mathvariant=\"normal\">/</mi><mo stretchy=\"false\">(</mo><msub><mi>n</mi><mi>c</mi></msub><mo>−</mo><mn>1</mn><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">P_i=\\sum_{j\\in c,j\\ne i}A_j/(n_c-1)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">P</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3117em;\"><span style=\"top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">i</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1.1858em;vertical-align:-0.4358em;\"></span><span class=\"mop\"><span class=\"mop op-symbol small-op\" style=\"position:relative;top:0em;\">∑</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.1864em;\"><span style=\"top:-2.4003em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathnormal mtight\" style=\"margin-right:0.05724em;\">j</span><span class=\"mrel mtight\">∈</span><span class=\"mord mathnormal mtight\">c</span><span class=\"mpunct mtight\">,</span><span class=\"mord mathnormal mtight\" style=\"margin-right:0.05724em;\">j</span><span class=\"mrel mtight\"><span class=\"mrel mtight\"><span class=\"mord vbox mtight\"><span class=\"thinbox mtight\"><span class=\"rlap mtight\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"inner\"><span class=\"mord mtight\"><span class=\"mrel mtight\"></span></span></span><span class=\"fix\"></span></span></span></span></span><span class=\"mrel mtight\">=</span></span><span class=\"mord mathnormal mtight\">i</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.4358em;\"><span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">A</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3117em;\"><span style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\" style=\"margin-right:0.05724em;\">j</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.2861em;\"><span></span></span></span></span></span></span><span class=\"mord\">/</span><span class=\"mopen\">(</span><span class=\"mord\"><span class=\"mord mathnormal\">n</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.1514em;\"><span style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">c</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">−</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\">1</span><span class=\"mclose\">)</span></span></span></span>，其中 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>A</mi><mi>j</mi></msub></mrow><annotation encoding=\"application/x-tex\">A_j</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.9694em;vertical-align:-0.2861em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">A</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3117em;\"><span style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\" style=\"margin-right:0.05724em;\">j</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.2861em;\"><span></span></span></span></span></span></span></span></span></span> 是同学的家乡指标。若把本人纳入，自己的地区条件会机械地进入同伴变量。这是复用时的构造原则。作者还比较按<strong>插补家庭收入</strong>构造的替代同伴指标，报告结果稳健。该检验说明结果对测度方式并非极其敏感，不能从中倒推出每个家庭的实际财富或代理变量的准确率。<a href=\"https://doi.org/10.1016/j.jdeveco.2026.103954\" target=\"_blank\" rel=\"noopener noreferrer\">原文 Introduction、Robustness and sensitivity checks</a></p>\n<p>如果地区指标等于真实家庭资源加上独立随机噪声，在经典线性测量误差条件下，系数通常向零衰减。这里更棘手的是系统误差：家庭迁移经历、城乡差异或本地公共服务可能同时影响代理和心理结果，偏误未必向零。对同学取平均可减少部分个人噪声，无法消除共同的县域偏差。<strong>分班检验解决“谁与谁同班”，替代测度解决“这个班的特征究竟是什么”</strong>。真实收入资料再精确也无法补救择班，一次彻底随机的分班也无法把县 GDP 变成家庭财富。</p>\n"
+          }
+        ]
+      },
+      {
+        "title": "结果｜平均水平、班内名次和心理机制",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<p>主结果使用 Zung 抑郁自评量表。在控制本人家乡富裕程度后，同伴指标增加一个标准差，与抑郁指标上升约 <strong>0.024 个标准差</strong>、达到抑郁判定标准的概率增加约 <strong>1 个百分点</strong>相对应。后者是筛查结果，不是临床诊断。加入同伴平均富裕程度后，自己在班内的家乡富裕排名效应不显著。来自较不富裕县的学生和男性的反应更明显。性别交互见原文表 4 第（1）列。<a href=\"https://doi.org/10.1016/j.jdeveco.2026.103954\" target=\"_blank\" rel=\"noopener noreferrer\">原文 Introduction 及 Heterogeneous effects by own and peer gender</a></p>\n<p>向上比较解释还给出更细的预测：比本人家乡更富裕的同伴应更相关，自信和自卑感也应变化。作者报告的方向与此吻合，感知到的社会支持亦下降，后者见附图 A.4、附表 A.17。分班设计为同伴暴露的影响提供了较强证据；自卑和支持感属于暴露之后的变量，把它们放进回归不能单独识别社会比较占总效应的比例。<a href=\"https://doi.org/10.1016/j.jdeveco.2026.103954\" target=\"_blank\" rel=\"noopener noreferrer\">原文 Mechanism analysis、Social support</a></p>\n"
+          }
+        ]
+      },
+      {
+        "title": "最值得学习的能力｜分别给制度和指标找反证",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<p>复用时先写一句具体的反事实：“同一校、同一专业、同一年录取的这个学生，如果被分到另一个行政班，会接触怎样的同伴？”然后沿两条线分别找反例。一条问学生能否换班、分班人员是否掌握会预测心理状态的信息。另一条问换一个同伴经济背景指标后，观察到的是同一效应，还是地区文化的影响。能回答前一条，才有资格谈分配效应；能回答后一条，才能给这个效应起一个准确的经济学名字。</p>\n"
+          }
+        ]
+      },
+      {
+        "title": "未来如何复用",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<ol>\n<li><strong>新设想：研究宿舍同伴与求职。</strong> 若宿舍确在院系、年级和性别单元内分配，可研究同伴家庭资源与求职行动。先查选房、调宿和预分配规则，再用资助资格与匿名家庭背景检验代理，不宜仅凭室友籍贯命名一个“财富效应”。</li>\n<li><strong>新设想：研究 AI 学习小组。</strong> 随机编组可以改变组员的工具熟练度，但以使用频率代表熟练度可能混入上网时间和课程要求。用编组前的标准化任务表现验证指标，再比较实际协作与个人成绩，把分组证据和测度证据各留一份。</li>\n</ol>\n<p><a href=\"#original\">返回原始目录</a></p>\n"
+          }
+        ]
+      }
+    ],
+    "attachments": [
+      {
+        "title": "阅读 Markdown 笔记",
+        "url": "notes/cases-2026-11-02/06_同伴富裕与心理健康_准随机识别.md"
+      }
+    ]
+  },
+  {
+    "id": "promotion-tournaments-pollution",
+    "date": "2026-11-02",
+    "title": "Political career incentives and the environmental costs: Evidence from China’s promotion tournaments",
+    "directoryTitle": "政治晋升激励与环境成本：来自中国晋升锦标赛的证据",
+    "subtitle": "晋升锦标赛与污染｜怎样把一个倒 U 形预测变成可辨别的证据",
+    "source": "JingXuan Xu、Hao Xu、Guangrong Ma",
+    "overviewHtml": "<p>如果一个地级市多管一个县，原有县的干部会更努力争取晋升，还是觉得机会渺茫而减少投入？两种直觉可以同时成立，取决于原来有多少竞争者。许敬轩等把这个看似抽象的激励问题落在一项可观测代价上：增长竞争会不会以放松环境治理为代价？</p>\n<p>作者用多赢家锦标赛解释干部的增长激励，用辖县数衡量潜在参赛规模，并以地级市的小河流总长度构造工具变量。结果显示，污染浓度在约 10 个县处达到峰值。这篇适合练习从理论推出曲线形状，再分别判断峰值两侧的数据支持和工具变量的排除条件。</p>\n",
+    "sections": [
+      {
+        "title": "论文与版本",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<p>JingXuan Xu、Hao Xu、Guangrong Ma，<em>Political career incentives and the environmental costs: Evidence from China’s promotion tournaments</em>，<em>Journal of Development Economics</em>。2026 年 9 月 10 日在线发表，卷期为 2027 年 2 月第 185 卷，文章号 103924。领域为政治经济学、环境经济学与地方公共经济学。阅读依据为原文公开的 Introduction、Conceptual framework、Baseline results 和机制章节摘段。以下教学公式为解释性写法，未核到表格的精确系数和第一阶段统计量不填。<a href=\"https://doi.org/10.1016/j.jdeveco.2026.103924\" target=\"_blank\" rel=\"noopener noreferrer\">期刊原文</a> · <a href=\"https://eco.btbu.edu.cn/kxyj2024/xzgd2024/df20debf39ea45b88188ef367aa57e5d.htm\" target=\"_blank\" rel=\"noopener noreferrer\">第一作者所在学院的出版记录</a></p>\n"
+          }
+        ]
+      },
+      {
+        "title": "模型从哪里来｜人数怎样改变努力的边际回报",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<p>县级干部在上级考核下争取相对有限的晋升岗位。理论起点是 Clark 与 Riis 的多赢家锦标赛。可以把县级干部看作选择努力的参赛者，把同一地级市内的其他干部视作竞争对手，把名额和评价规则视作上级给定的制度条件。官员既要增长也要管环境，若增长表现更受考核重视，两项任务对晋升的私人回报便不同。<a href=\"https://www.sciencedirect.com/science/article/pii/S0304387826002075\" target=\"_blank\" rel=\"noopener noreferrer\">原文 Conceptual framework、Introduction</a></p>\n<p>用一个教学式说明选择逻辑。设 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>N</mi></mrow><annotation encoding=\"application/x-tex\">N</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">N</span></span></span></span> 是参赛人数，<span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>K</mi></mrow><annotation encoding=\"application/x-tex\">K</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">K</span></span></span></span> 是相对固定的赢家名额，<span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>e</mi><mi>i</mi></msub></mrow><annotation encoding=\"application/x-tex\">e_i</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.5806em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">e</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3117em;\"><span style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">i</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span> 是干部为增长付出的努力，<span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>V</mi></mrow><annotation encoding=\"application/x-tex\">V</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span></span></span></span> 是晋升价值，<span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>p</mi><mi>i</mi></msub></mrow><annotation encoding=\"application/x-tex\">p_i</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.625em;vertical-align:-0.1944em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">p</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3117em;\"><span style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">i</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span> 是由自己和对手的努力共同决定的获胜概率。其选择可概括为</p>\n<div class=\"math-scroll\" tabindex=\"0\" role=\"region\" aria-label=\"数学公式，可横向滚动\"><span class=\"katex-display\"><span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><semantics><mrow><munder><mrow><mi>max</mi><mo>⁡</mo></mrow><msub><mi>e</mi><mi>i</mi></msub></munder><mtext>  </mtext><mi>V</mi><msub><mi>p</mi><mi>i</mi></msub><mo stretchy=\"false\">(</mo><msub><mi>e</mi><mi>i</mi></msub><mo separator=\"true\">,</mo><msub><mi>e</mi><mrow><mo>−</mo><mi>i</mi></mrow></msub><mo separator=\"true\">;</mo><mi>N</mi><mo separator=\"true\">,</mo><mi>K</mi><mo stretchy=\"false\">)</mo><mo>−</mo><mi>C</mi><mo stretchy=\"false\">(</mo><msub><mi>e</mi><mi>i</mi></msub><mo stretchy=\"false\">)</mo><mi mathvariant=\"normal\">.</mi></mrow><annotation encoding=\"application/x-tex\">\\max_{e_i}\\; V p_i(e_i,e_{-i};N,K)-C(e_i).</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1.5501em;vertical-align:-0.8001em;\"></span><span class=\"mop op-limits\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.4306em;\"><span style=\"top:-2.4em;margin-left:0em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\"><span class=\"mord mathnormal mtight\">e</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3281em;\"><span style=\"top:-2.357em;margin-left:0em;margin-right:0.0714em;\"><span class=\"pstrut\" style=\"height:2.5em;\"></span><span class=\"sizing reset-size3 size1 mtight\"><span class=\"mord mathnormal mtight\">i</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.143em;\"><span></span></span></span></span></span></span></span></span></span><span style=\"top:-3em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span><span class=\"mop\">max</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8001em;\"><span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"mord\"><span class=\"mord mathnormal\">p</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3117em;\"><span style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">i</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mopen\">(</span><span class=\"mord\"><span class=\"mord mathnormal\">e</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3117em;\"><span style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">i</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">e</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3117em;\"><span style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">−</span><span class=\"mord mathnormal mtight\">i</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.2083em;\"><span></span></span></span></span></span></span><span class=\"mpunct\">;</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">N</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">K</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">−</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mopen\">(</span><span class=\"mord\"><span class=\"mord mathnormal\">e</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3117em;\"><span style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">i</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mclose\">)</span><span class=\"mord\">.</span></span></span></span></span></div>\n<p>若为内点解，干部会把努力增加到 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>V</mi><mtext> </mtext><mi mathvariant=\"normal\">∂</mi><msub><mi>p</mi><mi>i</mi></msub><mi mathvariant=\"normal\">/</mi><mi mathvariant=\"normal\">∂</mi><msub><mi>e</mi><mi>i</mi></msub><mo>=</mo><msup><mi>C</mi><mo mathvariant=\"normal\" lspace=\"0em\" rspace=\"0em\">′</mo></msup><mo stretchy=\"false\">(</mo><msub><mi>e</mi><mi>i</mi></msub><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">V\\,\\partial p_i/\\partial e_i=C&#x27;(e_i)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\" style=\"margin-right:0.05556em;\">∂</span><span class=\"mord\"><span class=\"mord mathnormal\">p</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3117em;\"><span style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">i</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mord\">/</span><span class=\"mord\" style=\"margin-right:0.05556em;\">∂</span><span class=\"mord\"><span class=\"mord mathnormal\">e</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3117em;\"><span style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">i</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1.0019em;vertical-align:-0.25em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.7519em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">′</span></span></span></span></span></span></span></span></span><span class=\"mopen\">(</span><span class=\"mord\"><span class=\"mord mathnormal\">e</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3117em;\"><span style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">i</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mclose\">)</span></span></span></span>。<strong>决定努力的是再多做一点能增加多少获胜机会</strong>。平均晋升概率随人数增加而降低，并不意味着努力必定降低。若可获奖人数已接近参赛人数，额外努力对是否获奖的影响小。新增对手使名次变得重要，边际回报可以上升。当对手已很多，获胜变得困难，继续为名次付出努力的收益又可以下降。作者采用的固定赢家数框架给出了这种倒 U 形预测；上式本身不保证该形状，还需锦标赛的获胜规则和成本假设。</p>\n<p>这里有两个容易跳过的桥梁。其一，若名额随县数等比例扩大，参赛规模带来的竞争变化就不同。其二，增长努力只有在放松环保、吸引污染型企业等行为能提高受考核的增长时，才会传导到污染。如果旅游收入依赖清洁空气，增长与环保可能同向。由此得到比“县越多污染越重”更严格的预测：在增长导向较强的考核环境里，污染随参赛规模先升后降；改变考核权重或晋升前景，曲线应当减弱。</p>\n"
+          }
+        ]
+      },
+      {
+        "title": "变量构造｜观测到的是赛场大小",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<p>作者用<strong>一个地级市管辖的县数</strong>表征参赛规模，用县级月度 PM₂.₅、PM₁₀ 浓度表征环境结果，污染面板覆盖 1998—2024 年，来源是卫星数据。一个县经历了多少污染，与当地企业实际排放多少，并不完全相同，气象、上风向排放和跨县扩散均会影响浓度。<a href=\"https://doi.org/10.1016/j.jdeveco.2026.103924\" target=\"_blank\" rel=\"noopener noreferrer\">原文 Introduction、Data</a></p>\n<p>县数这个指标的长处是制度意义明确。若同一上级评价下的干部争夺有限岗位，县数与潜在对手数量相连。其局限是县数也可能反映面积、人口、行政管理跨度、产业基础和区划历史。它既不是晋升概率，也不是努力的实测值。理论预测本身意味着 5 县变 6 县和 15 县变 16 县的激励变化可能方向相反。把县数简单命名为线性的“竞争强度”，反而抹去了论文最有意思的假说。</p>\n"
+          }
+        ]
+      },
+      {
+        "title": "非线性检验｜“峰值约 10 个县”要怎样读",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<p>用 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi></mrow><annotation encoding=\"application/x-tex\">P</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">P</span></span></span></span> 表示污染浓度，拟合关系可概括为 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>=</mo><mi>α</mi><mo>+</mo><msub><mi>β</mi><mn>1</mn></msub><mi>N</mi><mo>+</mo><msub><mi>β</mi><mn>2</mn></msub><msup><mi>N</mi><mn>2</mn></msup><mo>+</mo><mo>⋯</mo></mrow><annotation encoding=\"application/x-tex\">P=\\alpha+\\beta_1 N+\\beta_2 N^2+\\cdots</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">P</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6667em;vertical-align:-0.0833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.0037em;\">α</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.05278em;\">β</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.0528em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">1</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">N</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1.0085em;vertical-align:-0.1944em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.05278em;\">β</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.0528em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">2</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">N</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8141em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">2</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.313em;\"></span><span class=\"minner\">⋯</span></span></span></span>。曲线的局部斜率是 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>β</mi><mn>1</mn></msub><mo>+</mo><mn>2</mn><msub><mi>β</mi><mn>2</mn></msub><mi>N</mi></mrow><annotation encoding=\"application/x-tex\">\\beta_1+2\\beta_2N</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.05278em;\">β</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.0528em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">1</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord\">2</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.05278em;\">β</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.0528em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">2</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">N</span></span></span></span>，峰值是 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>N</mi><mo>∗</mo></msup><mo>=</mo><mo>−</mo><msub><mi>β</mi><mn>1</mn></msub><mi mathvariant=\"normal\">/</mi><mo stretchy=\"false\">(</mo><mn>2</mn><msub><mi>β</mi><mn>2</mn></msub><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">N^*=-\\beta_1/(2\\beta_2)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6887em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">N</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6887em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∗</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\">−</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.05278em;\">β</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.0528em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">1</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mord\">/</span><span class=\"mopen\">(</span><span class=\"mord\">2</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.05278em;\">β</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.0528em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">2</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mclose\">)</span></span></span></span>。这解释了为什么不能只读一次项：它对应 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>N</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/x-tex\">N=0</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">N</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">0</span></span></span></span> 处的斜率，而零个县并非有意义的比较。县数又是整数，<strong>从 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>N</mi></mrow><annotation encoding=\"application/x-tex\">N</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">N</span></span></span></span> 个县到 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>N</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/x-tex\">N+1</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">N</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">1</span></span></span></span> 个县的预测差</strong>应读作 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>β</mi><mn>1</mn></msub><mo>+</mo><msub><mi>β</mi><mn>2</mn></msub><mo stretchy=\"false\">(</mo><mn>2</mn><mi>N</mi><mo>+</mo><mn>1</mn><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">\\beta_1+\\beta_2(2N+1)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.05278em;\">β</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.0528em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">1</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.05278em;\">β</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.0528em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">2</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mopen\">(</span><span class=\"mord\">2</span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">N</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\">1</span><span class=\"mclose\">)</span></span></span></span>。后一个量通常更接近研究者能向读者解释的变化。</p>\n<div class=\"reading-table rich-table two-column\" tabindex=\"0\" role=\"region\" aria-label=\"资料表格，可横向滚动\"><table>\n<thead>\n<tr>\n<th>证据</th>\n<th>可以怎样读</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>表 2 的 OLS</td>\n<td>作者在 Baseline results 中报告，PM₂.₅ 的第（2）列一次项和平方项显著，PM₁₀ 的第（3）、（4）列未得到显著结果。不能说两种污染物在 OLS 中都已验证倒 U 形。</td>\n</tr>\n<tr>\n<td>作者的主要结果</td>\n<td>引言报告主分析下两种污染指标均呈倒 U 形，污染在约 <strong>10 个县</strong>时达到峰值。约 <strong>74.4% 的样本地级市辖县数不超过 10</strong>。比例以地级市为单位，不能写成 74.4% 的县月观测。</td>\n</tr>\n<tr>\n<td>数据支持到哪里</td>\n<td>约四分之一地级市在 10 个县以上，峰值并非显然落在样本最大值之外。但这个比例不能说明峰值附近样本密度、右侧末端斜率精度或峰值的置信区间。它支持看两侧的数据分布，不能替代两侧检验。</td>\n</tr>\n</tbody></table></div>\n<p>复用时，我会先画辖县数的频数和各县数下的污染均值，再看有效区间左端斜率是否为正、右端是否为负，结合不确定性检查两端，并比较分箱或样条能否大致重现形状。这样才能区分“在观测范围内确有下降段”和“数据大体只在上升段，抛物线被迫弯下来”。污染结果在县月层面，但县数和河流工具在地级市层面变化，计算精度时也要考虑同一地级市的共同冲击。以上是<strong>复用时的判据</strong>，没有将它们冒充作者已经报告的检验。<a href=\"https://doi.org/10.1016/j.jdeveco.2026.103924\" target=\"_blank\" rel=\"noopener noreferrer\">原文 Introduction、Baseline results、表 2</a></p>\n"
+          }
+        ]
+      },
+      {
+        "title": "工具变量｜让县数的哪一部分变化参与比较",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<p><strong>先讲直觉。</strong> 两个今天辖县数不同的地级市，可能在人口密度、工业布局和行政历史上原本就不同，这些因素自己也会影响空气质量。作者寻找一个更早形成、能够解释划县历史的地理因素：<strong>地级市内小河流的总长度</strong>。历史上常依河划界，小河流更密集的地方较容易形成较多行政单元。其设想是借助这部分历史区划差异来比较县数和污染，而不是把今天所有与县数相关的地区差异都解释为晋升竞争。<a href=\"https://www.sciencedirect.com/science/article/pii/S0304387826002075\" target=\"_blank\" rel=\"noopener noreferrer\">原文 Introduction 对 IV 的说明</a></p>\n<p><strong>再看两阶段分别需要什么。</strong></p>\n<ol>\n<li><strong>第一阶段需要可预测性和足够的信息。</strong> 河界历史解释了工具为何可能预测县数。真正有用的是给定控制后剩余的小河总长能否预测行政单元数量。模型若同时把 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>N</mi></mrow><annotation encoding=\"application/x-tex\">N</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">N</span></span></span></span> 和 <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>N</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/x-tex\">N^2</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8141em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">N</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8141em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">2</span></span></span></span></span></span></span></span></span></span></span> 当内生变量，还必须有足够的独立工具方向分别预测它们。仅用一个标量排除工具通常不能识别两个内生项。可考虑工具的非线性函数，但其具体形式、秩条件和强度都需验证，也不能直接用预测县数的平方替代平方项的第一阶段。公开摘段明确了小河总长，未展示实际工具矩阵、各第一阶段系数或条件 F 值，因此这里只说明识别要求。</li>\n<li><strong>第二阶段需要排除直接通道。</strong> 作者认为小河相较于大江大河，对现代经济和环境的直接作用较有限。这个论证比“河流形成较早”更关键。河网可能直接影响地形湿度、污染扩散、聚落与工业选址，也可能影响跨界污染治理成本。若这些路径在控制条件后仍与污染相连，第二阶段就混入地理效应。第一阶段再强也不能解决这一点。</li>\n<li><strong>从行政区划到政治激励，还要多走一步。</strong> 即使工具对县数有效，更多县也可能改变监管预算、执法协调和行政碎片化。IV 首先利用的是与河网历史相关的辖县规模差异，不能直接读作“让官员晋升欲望增加一个单位”的效应。工具诊断回答统计识别，考核制度和机制证据才帮助我们判断是哪条行为通道在工作。</li>\n</ol>\n"
+          }
+        ]
+      },
+      {
+        "title": "机制、反事实与因果边界",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<p>原文比较了环保处罚、污染型企业进入、生产过程清洁程度和 GDP 增长。作者报告环保处罚案件与县数呈 U 形，经济增长率呈倒 U 形，另有污染型企业进入和生产清洁程度的结果。这些结果使“增长努力通过监管和产业选择传导”比仅观察浓度更具体。但处罚案件少既可能是放松执法，也可能是违法更少；与企业进入和污染结果合读才有辨别力。</p>\n<p>更有信息量的是看激励链条何时变弱。作者报告，在热门旅游城市、民族自治地区以及晋升空间较小的较年长书记组，未见同样的倒 U 形。2013 年“大气十条”实施后，环保考核更受重视的重点防控区域也未见显著倒 U 形，其他地区仍可观察到。这些结果与理论预测相符；各组显著性不同，单独看并不能证明组间差异显著，也不能把重点区域的变化直接当成环保考核权重的独立因果效应。<a href=\"https://doi.org/10.1016/j.jdeveco.2026.103924\" target=\"_blank\" rel=\"noopener noreferrer\">原文 Mechanisms、Environmental regulations from the central government</a></p>\n<p><strong>证据分层。</strong> 表 2 是相关关系。IV 的因果解释依赖河长的相关性、排除限制及非线性模型的识别。峰值约 10 是特定样本和函数形式下的估计，不能当作全国最优行政区划规模。要讨论“最优”，还需要公共服务、增长、监管成本与居民健康等福利结果，以及可行的政策反事实。</p>\n"
+          }
+        ]
+      },
+      {
+        "title": "最值得学习的能力与复用",
+        "blocks": [
+          {
+            "type": "rich",
+            "html": "<p>这篇最值得借鉴的是研究顺序：先说明参与人数怎样改变<strong>额外努力的私人回报</strong>，再选一个能对应人数的行政指标；理论预言有两个方向，因此计量必须检查峰值两侧；指标内生才引入地理工具；最后回到哪些官员仍有晋升空间、哪些地区仍看重增长。如果跳过前两步，直接拿县数与平方项回归，曲线即使显著也很难赋予政治经济学含义。</p>\n<ol>\n<li><strong>新设想：科研资助竞赛。</strong> 在奖项名额相近的项目中，参赛团队增多，是否先激励投入、后使胜算较低的团队退出？先记录名额、报名与退出规则，再寻找参赛资格范围的变化；报名数会被项目声望吸引，不能直接当外生竞争。</li>\n<li><strong>新设想：企业销售竞赛。</strong> 当晋升按相对销量排序，竞争是否挤出售后质量？同时观察销量、退货和投诉，再比较质量纳入考核前后的预测。若只看销售额，即使估出了弯曲关系，也无法确认多任务挤出。</li>\n<li><strong>可复用原则。</strong> 为每个历史工具画两条路径：它如何改变理论中的制度变量，以及它怎样可能绕过制度影响结果。若第二条路径无法反驳，就保留条件性解释。为每个转折点同时记录样本分布、两侧斜率与不确定性，不把一张平滑曲线当成完整的形状证据。</li>\n</ol>\n<p><a href=\"#original\">返回原始目录</a></p>\n"
+          }
+        ]
+      }
+    ],
+    "attachments": [
+      {
+        "title": "阅读 Markdown 笔记",
+        "url": "notes/cases-2026-11-02/07_晋升锦标赛与污染_理论与工具变量.md"
       }
     ]
   }
